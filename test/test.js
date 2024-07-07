@@ -9,4 +9,8 @@ describe("multiply exercise", function () {
   it("Should return correct product of numbers - CYCLE 2", function () {
     assert.equal(multiply(2, 2), 4);
   });
+
+  it("Should return correct product of numbers - CYCLE 3", function () {
+    assert.equal(multiply(3, 3), 9);
+  });
 });
